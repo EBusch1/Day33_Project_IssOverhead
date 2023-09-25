@@ -4,13 +4,13 @@ import smtplib
 import time
 
 # email settings
-MY_EMAIL = "etb901@gmail.com"
-MY_PASSWORD = "frst pdxv ztyw wvuq"
-THEIR_EMAIL = "elijah.t.busch@gmail.com"
+MY_EMAIL = ""
+MY_PASSWORD = ""
+THEIR_EMAIL = ""
 
 # my long and lat
-MY_LAT = 33.197247  # Your latitude
-MY_LONG = -96.639786  # Your longitude
+MY_LAT = 10  # Your latitude
+MY_LONG = -10 # Your longitude
 
 
 # If the ISS is close to my current position
