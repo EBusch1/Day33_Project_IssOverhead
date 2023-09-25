@@ -65,17 +65,6 @@ def email_notification():
                                   )
 
 
-# # BONUS: run the code every 60 seconds.
-# start_time = monotonic()
-# while True:
-#     iss_is_close = proximity_check(my_long=MY_LONG, my_lat=MY_LAT, iss_long=iss_longitude, iss_lat=iss_latitude)
-#     is_night = night_check(time_hour=time_now.hour, time_sunset=sunset, time_sunrise=sunrise)
-#
-#     if iss_is_close and is_night:
-#         email_notification()
-#
-#     sleep(60.0 - ((monotonic() - start_time) % 60.0))
-
 
 
 while True:
